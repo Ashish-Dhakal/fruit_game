@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.fruit_game"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"  // <-- explicitly set to required version
+
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
